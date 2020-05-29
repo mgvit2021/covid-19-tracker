@@ -1,0 +1,9 @@
+.formControl{
+    width:30%;
+    margin-bottom: 30px !important;
+}
+.selectLine{
+    color: rgb(240, 24, 24);
+    font-weight: 450;
+    font-size: 15px !important;
+}
