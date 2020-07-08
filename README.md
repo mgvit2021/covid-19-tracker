@@ -1,4 +1,5 @@
-Website Link: mgvit2021.github.io/covid-19-tracker
+Website Link: mgvit2021.github.io/covid-19-tracker  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
