@@ -5,7 +5,7 @@ import {fetchData} from './api/index';
 import ReactRotatingText from 'react-rotating-text';
 import Corona from './images/covid19_logo.png';
 import cx from 'classnames'
-
+import {Footer} from './components/Footer'
 class App extends Component{
   state={
     data:{},
@@ -45,6 +45,7 @@ class App extends Component{
         <CountryPicker handleCountryChange = {this.handleCountryChange}/>
         <Chart data={this.state.data} country={this.state.country}/>
         <CountryDetails country={this.state.country}/>
+        <Footer />
       </div>
     );
   }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {fetchIndiaData, fetchContact} from '../../api'
-import {ChartComponent} from '../IndiaStats/ChartComponent/ChartComponent'
 import {StatePicker} from '../IndiaStats/StatePicker/StatePicker'
 import {StateStats} from '../IndiaStats/StateStats/StateStats'
 import styles from './CountryDetails.module.css';
@@ -39,7 +38,7 @@ export class CountryDetails extends Component {
             return(
                 <div>
                     <h1 className={cx(["lead","text-center",styles.countryHead])}>Covid-19 stats India</h1>
-                    <ChartComponent data={this.state.summary} />
+                    
                     <StatePicker data={this.state.stateData} handleStateChange={this.handleStateChange} />
                     <h5 className="lead m-4">Helpline Number: {this.state.helpline}</h5>
                     <StateStats data={this.state.stateData} state={this.state.inState} />
